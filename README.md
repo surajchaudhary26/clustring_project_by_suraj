@@ -1,8 +1,8 @@
-# 📊 KMeans Clustering on Customer Churn Dataset
+# KMeans Clustering on Customer Churn Dataset
 
 This project implements KMeans Clustering to segment customers based on their behavior using a Customer Churn dataset. The goal is to understand customer groups for better business strategies.
 
-## 📁 Dataset
+## Dataset
 
 The dataset used for this project is the **Customer Churn** dataset, which includes various features related to customer demographics, account information, and service usage.
 
@@ -22,7 +22,7 @@ The dataset used for this project is the **Customer Churn** dataset, which inclu
 - TotalCharges
 - Churn
 
-## 🛠️ Libraries Used
+##  Libraries Used
 
 - `pandas`
 - `numpy`
@@ -30,7 +30,7 @@ The dataset used for this project is the **Customer Churn** dataset, which inclu
 - `seaborn`
 - `sklearn`
 
-## 🔄 Data Preprocessing
+##  Data Preprocessing
 
 - Loaded the dataset using pandas.
 - Handled missing values in `TotalCharges`.
@@ -38,7 +38,7 @@ The dataset used for this project is the **Customer Churn** dataset, which inclu
 - Selected numerical features relevant for clustering.
 - Scaled the features using `StandardScaler` for normalization.
 
-## 📐 KMeans Clustering Process
+##  KMeans Clustering Process
 
 1. **Elbow Method:**
    - Used to determine the optimal number of clusters by plotting the Within-Cluster-Sum-of-Squares (WCSS).
@@ -52,25 +52,25 @@ The dataset used for this project is the **Customer Churn** dataset, which inclu
    - Added predicted cluster labels to the dataset.
    - Analyzed the characteristics of each cluster.
 
-## 📈 Visualizations
+##  Visualizations
 
 - Plotted the Elbow Method curve.
 - Used scatter plots to visualize cluster distribution on key feature combinations.
 - Cluster centers were highlighted to show centroids.
 
-## 🚀 Future Work
+##  Future Work
 
 - Apply other clustering techniques like DBSCAN or Hierarchical Clustering.
 - Visualize using PCA or t-SNE for dimensionality reduction.
 - Use cluster insights for churn prediction or targeted marketing.
 
-## 👨‍💻 Author
+##  Author
 
 - **Name**: Suraj Chaudhary
 - **GitHub**: link
 - **Email**: skc818527@gmail.com
 
-## 🧠 Learnings
+##  Learnings
 
 - Hands-on experience with unsupervised learning using `KMeans`.
 - Preprocessing techniques like Label Encoding, OneHotEncoding, and Feature Scaling.
